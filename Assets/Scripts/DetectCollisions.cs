@@ -6,8 +6,12 @@ public class DetectCollisions : MonoBehaviour
 {// cannonballs delete the ground on impact
     void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
+        if (other.CompareTag("Target")) // destroys cannonball and target on collision
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
+        
     }
     // Start is called before the first frame update
     void Start()

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     public GameObject projectile;
-    public float Velocity = 700f;
+    private float Velocity = 700f;
     void Start()
     {
         
