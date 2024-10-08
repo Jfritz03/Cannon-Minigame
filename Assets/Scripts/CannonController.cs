@@ -8,7 +8,7 @@ public class CannonController : MonoBehaviour
     public float horizontalInput;
     public float speed = 10.0f;
     private float xRange = 12;
-    private float rotatespeed = 40;
+    private float rotatespeed = 70;
     void Start()
     {
         
