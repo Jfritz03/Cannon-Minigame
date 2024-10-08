@@ -1,5 +1,29 @@
 # Cannon-Minigame
-A Cannon Minigame
-Cannon Minigame The cannon minigame has you controlling and aiming a cannon at blank white targets, the goal of the game is to shoot as many targets in a row without missing Controls: A & D move the cannon side to side W & S aims the cannon up and down Space shoots the cannon P spawns a target
+Cannon Chaos
+Cannon Chaos is a minigame in which you control a cannon and shoot at targets that spawn in random locations, the goal of the game it to destroy as many targets in a row without allowing any of them to despawn.
 
-I have a few issue with the game as well as things i want to add Issues: The cannon rotates on the wrong axis (it rotates on the Y axis instead of the X axis) The cannonballs delete the floor on contact Pressing p spawns an exponential amount of targets Future additions: I want to make the targets spawn on a timer at diffrent distances away
+Controls:
+A & D moves the cannon left and right
+W & S tilts the cannon up and down
+Spacebar shoots the cannon
+
+
+First Revision 
+Added the cannon with limited functionality cannon currently tilts in the wrong direction.
+Added targets 
+Added cannonball 
+Added ground
+Added multiple scripts controlling cannon behavior and target spawning.
+
+Second Revision
+Added full fuctionality to the cannon 
+targets now spawn on a timer rather than on P input
+Cannonballs now slightly bounce on the ground 
+
+Final Revision
+Added walls
+Added Bushes
+Added wheels and sight to cannon
+Added a script to make camera follow cannon
+Revised scripts regarding rotate speed and launch velocity
+
